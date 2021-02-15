@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP Incorrect", "OCP Incorr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP Incorrect", "LSP Incorrect\LSP Incorrect.csproj", "{EF0968DD-0DFD-4A79-9468-58B45F424FA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP Correct", "LSP Correct\LSP Correct.csproj", "{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EF0968DD-0DFD-4A79-9468-58B45F424FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0968DD-0DFD-4A79-9468-58B45F424FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF0968DD-0DFD-4A79-9468-58B45F424FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
