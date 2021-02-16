@@ -3,17 +3,23 @@ using System;
 
 namespace SRP_Correct.Entities
 {
-    public class TransportStateShortViewer
+    public interface IView
     {
-        public virtual void ShowCurrentState(Transport transport)
+        void ShowCurrentState(Transport transport);
+    }
+
+    public class TransportStateShortViewer : IView
+    {
+        public void ShowCurrentState(Transport transport)
             => Console.WriteLine($"Model: {transport.Model} \nSpeed: {transport.Speed}");
     }
 
-    public class TransportStateFullViewer : TransportStateShortViewer
+    public class TransportStateFullViewer : IView
     {
-        public override void ShowCurrentState(Transport transport)
+        public void ShowCurrentState(Transport transport)
         {
-            base.ShowCurrentState(transport);
+            Console.WriteLine($"Model: {transport.Model}");
+            Console.WriteLine($"Speed: {transport.Speed}");
             Console.WriteLine($"Fuel: {transport.CurrentFuel}");
         }
     }
