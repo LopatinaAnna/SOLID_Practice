@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP Correct", "OCP Correct\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP Incorrect", "OCP Incorrect\OCP Incorrect.csproj", "{D3B5D7FB-3BC1-41AE-9811-17BDB31F8FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP Incorrect", "LSP Incorrect\LSP Incorrect.csproj", "{EF0968DD-0DFD-4A79-9468-58B45F424FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP Incorrect", "LSP Incorrect\LSP Incorrect.csproj", "{EF0968DD-0DFD-4A79-9468-58B45F424FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP Correct", "LSP Correct\LSP Correct.csproj", "{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP Correct", "LSP Correct\LSP Correct.csproj", "{8CBF7B2F-FFEC-4420-B0F9-0437CBF007E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP Incorrect", "ISP Incorrect\ISP Incorrect.csproj", "{AC1BE3B7-8DA2-494A-A803-73C819792666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP Incorrect", "ISP Incorrect\ISP Incorrect.csproj", "{AC1BE3B7-8DA2-494A-A803-73C819792666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP Correct", "ISP Correct\ISP Correct.csproj", "{20631EFD-634E-4618-B322-A219FC09F7D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP Correct", "ISP Correct\ISP Correct.csproj", "{20631EFD-634E-4618-B322-A219FC09F7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP Incorrect", "DIP Incorrect\DIP Incorrect.csproj", "{571526D9-4268-4743-B612-C2FD396B7FA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{20631EFD-634E-4618-B322-A219FC09F7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20631EFD-634E-4618-B322-A219FC09F7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20631EFD-634E-4618-B322-A219FC09F7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571526D9-4268-4743-B612-C2FD396B7FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571526D9-4268-4743-B612-C2FD396B7FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571526D9-4268-4743-B612-C2FD396B7FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571526D9-4268-4743-B612-C2FD396B7FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
