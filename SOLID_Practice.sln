@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP Correct", "ISP Correct\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP Incorrect", "DIP Incorrect\DIP Incorrect.csproj", "{571526D9-4268-4743-B612-C2FD396B7FA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP Correct", "DIP Correct\DIP Correct.csproj", "{7A13DB95-E519-4F34-B0F3-3698DABB54D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{571526D9-4268-4743-B612-C2FD396B7FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571526D9-4268-4743-B612-C2FD396B7FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571526D9-4268-4743-B612-C2FD396B7FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A13DB95-E519-4F34-B0F3-3698DABB54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A13DB95-E519-4F34-B0F3-3698DABB54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A13DB95-E519-4F34-B0F3-3698DABB54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A13DB95-E519-4F34-B0F3-3698DABB54D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
