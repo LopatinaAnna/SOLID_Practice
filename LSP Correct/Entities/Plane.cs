@@ -2,7 +2,7 @@
 
 namespace SOLID_Practice.Entities
 {
-    public class Plane : Transport
+    public class Plane : RefuelTransport
     {
         public void BaggageDrop() => Console.WriteLine("Baggage drop");
 

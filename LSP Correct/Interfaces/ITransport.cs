@@ -1,7 +1,11 @@
 ﻿namespace SOLID_Practice.Interfaces
 {
-    public interface IRepair
+    public interface ITransport
     {
+        void Move();
+
+        void Park();
+
         void Repair();
     }
 }

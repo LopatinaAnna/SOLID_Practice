@@ -2,7 +2,7 @@
 
 namespace SOLID_Practice.Entities
 {
-    public class Ship : Transport
+    public class Ship : RefuelTransport
     {
         public override void Repair() => Console.WriteLine("Ship repair");
     }
