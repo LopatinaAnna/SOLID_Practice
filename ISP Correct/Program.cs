@@ -14,6 +14,15 @@ namespace ISP_Correct
             };
 
             RefuelAllTransport(transports);
+
+            var transports2 = new ITransport[]
+            {
+                new Car(),
+                new Plane(),
+                new Bicycle()
+            };
+
+            MoveAllTransport(transports2);
         }
 
         private static void RefuelAllTransport(IRefuel[] transports)
@@ -21,6 +30,14 @@ namespace ISP_Correct
             foreach (var transport in transports)
             {
                 transport.Refuel();
+            }
+        }
+
+        private static void MoveAllTransport(ITransport[] transports)
+        {
+            foreach (var transport in transports)
+            {
+                transport.Move();
             }
         }
     }

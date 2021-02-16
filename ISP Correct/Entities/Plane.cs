@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ISP_Correct.Entities;
+using System;
 
 namespace SOLID_Practice.Entities
 {
-    public class Plane : Transport
+    public class Plane : RefuelTransport
     {
         public void BaggageDrop() => Console.WriteLine("Baggage drop");
 
